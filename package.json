@@ -1,0 +1,17 @@
+{
+  "name": "funciones",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "rimraf dist && parcel src/index.html --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {}
+}
